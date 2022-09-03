@@ -1,0 +1,31 @@
+package estructurasdecontrol;
+
+import java.util.Scanner;
+
+public class EjemploSwitch {
+
+	public static void main(String[] args) {
+		/*Crear un programa que muestre las opciones
+		 * de una calculadora
+		 * sumar (2 numeros)
+		 * restar (2 numeros)
+		 * Multiplicar (2 numeros)
+		 * dividir (2 numeros - Tomar en cuenta la division entre 0)
+		 * Residuo (2 numeros)
+		 * Potencia (de una base a un exponente)
+		 * Raiz cuadrada (Tomar en cuenta el signo de la raiz)
+		 * Inverso multiplicatico (Tomar en cuenta la division entre 0)
+		 * Salir de la Aplicacion */
+		Scanner sc = new Scanner(System.in);
+		int opcion ;
+		int suma , resta ,  multiplicar;
+		double raizcuadrada, dividir, residuo,inversomulti;
+		String nume1;
+		
+		System.out.println("--Bienvenido a su Calculadora--");
+		System.out.println(" Por favor, dame el primer número de la operación. ");
+		 nume1 = sc.nextLine();
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package estructurasdecontrol;
+
+public class EstructuraSwitch {
+
+	public static void main(String[] args) {
+		// Estructura condicionales
+		// Estructura condicionales simple (if)
+		// Estructura condicionales doble (if else)
+		// Estructura condicionales anidada (multiple - if else if)
+		// Para hoy - Estructura condicionales multiple (Switch)
+		
+		int op = 2;
+		
+		switch (op) {
+           // El valor puede ser una variable byte , short, int , char , String		
+		case 1:
+			   System.out.println("El valor es 1");
+			break;
+		case 4: 
+			System.out.println("El valor es 2");
+			break;
+		case 3:
+			   System.out.println("El valor es 3");
+			break;
+		
+		}
+
+	}
+
+}
